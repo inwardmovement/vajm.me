@@ -1,21 +1,17 @@
 ---
-title: "Information"
-description: "Information"
-layout: "information"
+title: "Info"
+description: "Info"
+layout: "info"
 menu:
   secondary:
-    identifier: "information"
+    identifier: "info"
 ---
 
 ## Contact
-`Vic#6419`
+[Formulaire](https://docs.google.com/forms/d/e/1FAIpQLSei6dWnrpihWGqy0RixOXhHqHD71NBXZjOv_g9H4pOsZ9QM9g/viewform)
 
 ## Propriété intellectuelle
 Les textes de l'auteur sont enregistrés à l'INPI et mis à disposition selon les termes de la licence [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.fr).
 
-## Hébergeur
-**GitHub, Inc.**
-88 Colin P Kelly Jr St
-San Francisco, CA 94107
-United States
-+1 (877) 448-4820
+## Hébergement
+[Netlify](https://www.netlify.com/)
