@@ -1,0 +1,51 @@
+.nav {
+  .nav-pills {
+    justify-content: center;
+    background-color: $breadcrumb-bg;
+
+    .nav-link {
+      border-radius: 0;
+
+      &.active {
+        background-color: $primary-alt;
+      }
+    }
+ }
+}
+
+.nav-mobile {
+  .btn-group {
+    width: 100%;
+
+    .btn {
+      border-radius: 0;
+    }
+
+    .dropdown-menu {
+      width: 100%;
+      border-radius: 0;
+      margin: 0;
+      padding: 0;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      text-align: center;
+
+      .nav-pills {
+        .nav-item {
+          width: 100%;
+
+          .nav-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            svg.bi {
+              margin-right: .25em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

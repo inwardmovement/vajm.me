@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <main class="container poemes">
+    <article>
+      <h1 class="ds">{{ .Title }}</h1><br>
+      {{ .Content }}
+    </article>
+    {{ partial "nav-poemes" . }}
+  </main>
+  {{ partial "top-btn" . }}
+{{ end }}
+{{ define "footer" }}
+  {{ .Scratch.Set "pagination" "true" }}
+  {{ partial "pagination" . }}
+{{ end }}

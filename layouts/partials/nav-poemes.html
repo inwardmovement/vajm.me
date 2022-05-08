@@ -1,0 +1,18 @@
+<aside class="sidebar">
+  <nav class="nav-poemes-navigation" aria-label="Navigation poèmes">
+    <div class="list-group">
+      {{ $currentPage := . }}
+      {{ if eq .File.BaseFileName "_index" }}
+        {{ range .Data.Pages.ByDate }}
+        {{ $isCurrent := eq .Permalink $currentPage.Permalink }}
+          <a class="list-group-item list-group-item-action{{ if $isCurrent }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}{{ if $isCurrent }} <span class="sr-only">(active)</span>{{ end }}</a>
+        {{ end }}
+      {{ else }}
+        {{ range where .Site.RegularPages.ByDate "Params.recueil" .Params.recueil }}
+        {{ $isCurrent := eq .Permalink $currentPage.Permalink }}
+        <a class="list-group-item list-group-item-action{{ if $isCurrent }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}{{ if $isCurrent }} <span class="sr-only">(active)</span>{{ end }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </nav>
+</aside>

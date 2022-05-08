@@ -1,0 +1,28 @@
+<nav class="nav d-none" aria-label="Navigation">
+  {{ partial "nav-content" . }}
+</nav>
+
+<nav class="nav nav-mobile" aria-label="Navigation">
+  <div class="btn-group">
+    <button class="btn btn-primary-alt btn-lg dropdown-toggle text-center" type="button" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false" aria-label="Ouvrir navigation">
+      Menu
+    </button>
+    <div class="dropdown-menu shadow-sm">
+      {{ partial "nav-content" . }}
+    </div>
+  </div>
+</nav>
+
+{{ define "partials/nav-content" }}
+  <ul class="nav nav-pills">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq .Identifier $.Section) }}
+    <li class="nav-item"><a class="nav-link{{ if $isCurrent }} active{{ end }}" href="{{ .URL }}">{{ with .Pre }}{{ $icon := print "icons/" . ".svg" }}{{ (resources.Get $icon).Content | safeHTML }}{{ end }}{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(active)</span>{{ end }}</a></li>
+    {{ end }}
+    {{ range .Site.Menus.secondary }}
+    {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq .Identifier $.Section) }}
+    <li class="nav-item"><a class="nav-link{{ if $isCurrent }} active{{ end }}" href="{{ .URL }}">{{ with .Pre }}{{ $icon := print "icons/" . ".svg" }}{{ (resources.Get $icon).Content | safeHTML }}{{ end }}{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(active)</span>{{ end }}</a></li>
+    {{ end }}
+  </ul>
+{{ end }}

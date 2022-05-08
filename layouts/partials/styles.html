@@ -1,0 +1,6 @@
+{{ $mainCSS := resources.Get "scss/index.scss" | resources.ToCSS | resources.PostCSS }}
+{{ $mainCSS = slice $mainCSS | resources.Concat "main.css" }}
+{{ with (getenv "PRODUCTION") }}
+  {{ $mainCSS = $mainCSS | minify | fingerprint }}
+{{ end }}
+<link rel="stylesheet" href="{{ $mainCSS.Permalink }}" integrity="{{ $mainCSS.Data.Integrity }}">
