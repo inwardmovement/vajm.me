@@ -38,5 +38,5 @@ jobs:
       run: npm run _build
       if: success()
     - name: Deploy site
-      run: npx netlify-cli deploy --prod --dir .
+      run: npx netlify-cli deploy --prod --dir public
       if: success()
