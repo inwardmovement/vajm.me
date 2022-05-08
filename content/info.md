@@ -7,6 +7,9 @@ menu:
     identifier: "info"
 ---
 
+## Auteur
+Victor Massé
+
 ## Contact
 [Formulaire](https://docs.google.com/forms/d/e/1FAIpQLSei6dWnrpihWGqy0RixOXhHqHD71NBXZjOv_g9H4pOsZ9QM9g/viewform)
 
