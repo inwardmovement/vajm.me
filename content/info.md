@@ -2,6 +2,7 @@
 title: "Info"
 description: "Info"
 layout: "info"
+info: true
 menu:
   secondary:
     identifier: "info"

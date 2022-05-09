@@ -1,9 +1,6 @@
 ---
-title: "Inward Movement"
-description: "Author"
-aliases:
-  - /poems
-  - /poemes
+title: "vajm.me"
+description: "Poèmes"
 menu:
   main:
     name: "Extraits"
