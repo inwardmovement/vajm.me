@@ -1,6 +1,6 @@
 ---
-title: "Érosphère"
-description: "Recueil"
+title: "Tous les poèmes"
+description: "Tous les poèmes"
 cascade:
   recueil: "erosphere"
   type: "poeme"
@@ -8,6 +8,6 @@ cascade:
 type: "recueil"
 menu:
   main:
-    identifier: "erosphere"
+    identifier: "tous"
     weight: 6
 ---
