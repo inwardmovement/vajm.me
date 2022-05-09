@@ -4,8 +4,9 @@ description: "Info"
 layout: "info"
 info: true
 menu:
-  secondary:
+  main:
     identifier: "info"
+    weight: 3
 ---
 
 ## Auteur

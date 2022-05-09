@@ -20,9 +20,5 @@
     {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq .Identifier $.Section) }}
     <li class="nav-item"><a class="nav-link{{ if $isCurrent }} active{{ end }}" href="{{ .URL }}">{{ with .Pre }}{{ $icon := print "icons/" . ".svg" }}{{ (resources.Get $icon).Content | safeHTML }}{{ end }}{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(active)</span>{{ end }}</a></li>
     {{ end }}
-    {{ range .Site.Menus.secondary }}
-    {{ $isCurrent := or (eq .URL $currentPage.RelPermalink) (eq .Identifier $.Section) }}
-    <li class="nav-item"><a class="nav-link{{ if $isCurrent }} active{{ end }}" href="{{ .URL }}">{{ with .Pre }}{{ $icon := print "icons/" . ".svg" }}{{ (resources.Get $icon).Content | safeHTML }}{{ end }}{{ .Name }}{{ if $isCurrent }} <span class="sr-only">(active)</span>{{ end }}</a></li>
-    {{ end }}
   </ul>
 {{ end }}

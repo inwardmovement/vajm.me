@@ -2,6 +2,11 @@
 title: "Scène érotique"
 date: 2011-01-01
 feature: false
+menu:
+  main:
+    name: "Tous"
+    identifier: "tous"
+    weight: 2
 ---
 
 Elle se penche vers l'avant
