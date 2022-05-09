@@ -4,8 +4,8 @@ date: 2011-01-01
 feature: false
 menu:
   main:
-    name: "Tous"
-    identifier: "tous"
+    name: "Poèmes"
+    identifier: "poemes"
     weight: 2
 ---
 
