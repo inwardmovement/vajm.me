@@ -20,7 +20,7 @@ Cette vue je t'assure serait si belle en gouache
 Je t'observe
 
 Ta plume ta main et ton geste solennel
- Côtoient une mignonne manie que je vois
+Côtoient une mignonne manie que je vois
 C'est craquant : tu écris en repliant ton doigt !
 Cela me fait rêver, tu fais pousser mes ailes
 
