@@ -24,6 +24,6 @@ ce qui reste de ciel à force d'y baigner
 \*
 
 à jamais serons nus devant l'immensité
-et parlerons unissonnant de langue fière
+et parlerons unissonnant la langue fière
 
-la symbiose des étranges
+et la symbiose des étranges
