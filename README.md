@@ -1,14 +1,8 @@
 ## To develop locally
-- Install [Hugo](https://gohugo.io/getting-started/installing#binary-cross-platform) (see version in [workflow file](/.github/workflows/deploy-main.yml#L10))
-- Install [Node.js via nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (see version in [workflow file](/.github/workflows/deploy-main.yml#L11))
-  - On Windows:
-    - Install [nvm-windows](https://github.com/coreybutler/nvm-windows#installation--upgrades)
-    - Run as admin `nvm install [Node.js version]`
-    - Run as admin `nvm use [Node.js version]`
-  - On OSX and Linux:
-    - Install [nvm](https://github.com/nvm-sh/nvm#installation-and-update)
-    - Run `nvm install [Node.js version]`
-    - Run `nvm use [Node.js version]`
-- Install dependencies: `npm i`
-- Install [Netlify CLI](https://docs.netlify.com/cli/get-started/), [gulp-cli](https://www.npmjs.com/package/gulp-cli), [PostCSS CLI](https://github.com/postcss/postcss-cli) and [Autoprefixer](https://github.com/postcss/autoprefixer) globally: `npm i -g netlify-cli gulp-cli postcss-cli autoprefixer`
-- Clone the repo and run `npm run dev` from root folder
+1. Clone the repository.
+2. Setup [Hugo](https://gohugo.io/) (see version in [`.github/workflows/deploy-main.yml`](/.github/workflows/deploy-main.yml)).
+3. Setup [Node.js](https://nodejs.org/) (see version in [`.github/workflows/deploy-main.yml`](/.github/workflows/deploy-main.yml)), for example via NVS :
+    1. Setup [NVS](https://github.com/jasongin/nvs).
+    2. Run `nvs auto` from the project's root directory, and then run it again everytime you open the project.
+    3. (optional) If you don't want to run `nvs auto` everytime you open the project, run `nvs link`.
+5. Run `npm run dev` from the project's root directory to start the development server.
