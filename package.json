@@ -5,7 +5,6 @@
   "scripts": {
     "dev": "hugo server -DEF --i18n-warnings",
     "newPoem": "node scripts/newPoem.js",
-    "newRecueil": "node scripts/newRecueil.js",
     "_build": "hugo --i18n-warnings && gulp"
   },
   "newPoemFolder": "erosphere",
