@@ -4,4 +4,4 @@
 
 [build.environment]
   HUGO_VERSION = "0.92.0"
-  PRODUCTION = true
+  PRODUCTION = "true"
