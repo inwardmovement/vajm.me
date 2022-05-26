@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "hugo server -DEF --i18n-warnings",
     "newPoem": "node scripts/newPoem.js",
-    "_build": "hugo --i18n-warnings && gulp"
+    "_build": "hugo --i18n-warnings && gulp",
+    "_buildNetlify": "npm i -g postcss postcss-cli autoprefixer gulp-cli && hugo --i18n-warnings && gulp"
   },
   "newPoemFolder": "erosphere",
   "repository": {
