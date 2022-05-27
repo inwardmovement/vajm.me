@@ -1,5 +1,2 @@
-public/
+dist/
 node_modules/
-resources/
-.netlify/
-/.hugo_build.lock

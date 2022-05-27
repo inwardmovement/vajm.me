@@ -1,36 +1,11 @@
 {
-  "name": "inwardmovement.github.io",
-  "version": "1.0.0",
-  "description": "Personal website",
   "scripts": {
-    "dev": "hugo server -DEF --i18n-warnings",
-    "newPoem": "node scripts/newPoem.js",
-    "_build": "hugo --i18n-warnings && gulp",
-    "_buildNetlify": "npm i -g postcss postcss-cli autoprefixer gulp-cli && hugo --i18n-warnings && gulp"
+    "dev": "astro dev",
+    "build": "astro build",
+    "newPoem": "node scripts/newPoem.js"
   },
-  "newPoemFolder": "erosphere",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inwardmovement/inwardmovement.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/inwardmovement/inwardmovement.github.io/issues"
-  },
-  "homepage": "https://github.com/inwardmovement/inwardmovement.github.io",
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "dayjs": "^1.11.2",
-    "fs-extra": "^10.1.0",
-    "gulp": "^4.0.2",
-    "gulp-pretty-html": "^2.0.10",
-    "gulp-replace": "^1.1.3",
-    "inquirer": "^8.2.4",
-    "netlify-cli": "^10.3.1",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.13",
-    "slugify": "^1.6.5",
-    "yargs-parser": ">=21.0.1"
+    "@astrojs/tailwind": "^0.2.1",
+    "astro": "^1.0.0-beta.35"
   }
 }
