@@ -1,6 +1,6 @@
 ---
 title: "Là-haut"
-date: 2012-01-02
+date: 2012-01-02T01:00:00+02:00
 feature: false
 ---
 

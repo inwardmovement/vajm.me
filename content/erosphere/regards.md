@@ -1,6 +1,6 @@
 ---
 title: "Regards"
-date: 2015-11-08
+date: 2015-11-08T01:00:00+02:00
 feature: false
 ---
 

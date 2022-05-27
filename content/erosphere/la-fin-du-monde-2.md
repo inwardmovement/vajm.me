@@ -1,6 +1,6 @@
 ---
 title: "la fin du monde 2"
-date: 2018-01-19
+date: 2018-01-19T01:00:00+02:00
 feature: false
 ---
 

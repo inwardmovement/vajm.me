@@ -1,6 +1,6 @@
 ---
 title: "la fin du monde"
-date: 2018-01-18
+date: 2018-01-18T01:00:00+02:00
 feature: true
 ---
 

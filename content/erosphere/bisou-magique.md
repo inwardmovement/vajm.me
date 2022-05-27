@@ -1,6 +1,6 @@
 ---
 title: "bisou magique"
-date: 2019-10-22
+date: 2019-10-22T01:00:00+02:00
 feature: false
 ---
 
