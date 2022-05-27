@@ -1,5 +1,5 @@
 ---
-title: "La plus lourde matière de l'univers"
+title: "la plus lourde matière de l'univers"
 date: 2012-01-04T01:00:00+02:00
 feature: false
 ---
