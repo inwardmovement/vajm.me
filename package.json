@@ -6,6 +6,7 @@
   },
   "devDependencies": {
     "@astrojs/tailwind": "^0.2.1",
+    "@tailwindcss/typography": "^0.5.2",
     "astro": "^1.0.0-beta.35"
   }
 }
