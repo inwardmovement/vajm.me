@@ -5,4 +5,3 @@
    1. Setup [NVS](https://github.com/jasongin/nvs).
    2. Run `nvs auto` from the project's root directory everytime you open the project.
 3. Run `npm run dev` from the project's root directory to start the development server.
-   a
