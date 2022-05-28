@@ -1,3 +1,10 @@
+import git from "git-repo-info"
+
 // prettier-ignore
-export const  test    = "test",
-              test2   = "test2"
+export default {
+  title: "vajm.me",
+  description: "Poèmes",
+  version: git().abbreviatedSha.substring(0, 7)
+    + " "
+    + git().commitMessage
+}

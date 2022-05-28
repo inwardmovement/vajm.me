@@ -1,23 +1,25 @@
 ---
+import config from "../config"
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta name="version" content={config.version} />
     <title>Astro</title>
   </head>
   <body class="flex justify-center">
     <div class="max-w-xl">
       <!-- Before -->
       <button
-        class="text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800"
+        class="tw-text-white tw-px-4 sm:tw-px-8 tw-py-2 sm:tw-py-3 tw-bg-red-500 hover:tw-bg-sky-800"
         >...</button
       >
 
       <!-- After -->
       <button
-        class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3"
+        class="tw-bg-sky-700 tw-px-4 tw-py-2 tw-text-white hover:tw-bg-sky-800 sm:tw-px-8 sm:tw-py-3"
         >...</button
       >
     </div>
