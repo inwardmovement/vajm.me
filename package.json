@@ -1,7 +1,4 @@
 {
-  "name": "inwardmovement.github.io",
-  "version": "1.0.0",
-  "description": "Personal website",
   "scripts": {
     "dev": "hugo server -DEF --i18n-warnings",
     "newPoem": "node scripts/newPoem.js",
@@ -9,16 +6,6 @@
     "_buildNetlify": "npm i -g postcss postcss-cli autoprefixer gulp-cli && hugo --i18n-warnings && gulp"
   },
   "newPoemFolder": "erosphere",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/inwardmovement/inwardmovement.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/inwardmovement/inwardmovement.github.io/issues"
-  },
-  "homepage": "https://github.com/inwardmovement/inwardmovement.github.io",
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "dayjs": "^1.11.2",
