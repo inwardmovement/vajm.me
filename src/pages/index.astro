@@ -6,8 +6,8 @@ import config from "../config"
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="version" content={config.version} />
-    <title>Astro</title>
+    <meta name="version" content={import.meta.env.COMMIT_REF} />
+    <title>{config.title} | {config.description}</title>
   </head>
   <body class="flex justify-center">
     <div class="max-w-xl">
