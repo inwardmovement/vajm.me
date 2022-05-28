@@ -1,12 +1,15 @@
 ---
 import config from "../config"
+
+// prettier-ignore
+const version = import.meta.env.COMMIT_REF && (import.meta.env.COMMIT_REF).substring(0, 7)
 ---
 
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="version" content={import.meta.env.COMMIT_REF} />
+    <meta name="version" content={version} />
     <title>{config.title} | {config.description}</title>
   </head>
   <body class="flex justify-center">
