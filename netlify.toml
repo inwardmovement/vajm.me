@@ -3,7 +3,7 @@
   publish = "dist"
 
 [context.deploy-preview.environment]
-  command = "SITE=${process.env.DEPLOY_PRIME_URL} astro build"
+  command = "SITE=${DYNAMIC_DEPLOY_PRIME_URL} npm run build"
 
 [context.branch-deploy.environment]
-  command = "SITE=${process.env.DEPLOY_PRIME_URL} astro build"
+  command = "SITE=${DYNAMIC_DEPLOY_PRIME_URL} npm run build"
