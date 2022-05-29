@@ -13,5 +13,6 @@ export default {
     (import.meta.env.CONTEXT == "deploy-preview") ||
     (import.meta.env.CONTEXT == "branch-deploy")
   ),
-  version: import.meta.env.NETLIFY && (import.meta.env.COMMIT_REF).substring(0, 7)
+  version: import.meta.env.NETLIFY && (import.meta.env.COMMIT_REF).substring(0, 7),
+  site: import.meta.env.SITE
 }
