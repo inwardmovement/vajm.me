@@ -3,7 +3,7 @@
   publish = "dist"
 
 [context.deploy-preview.environment]
-  command = "SITE=${DYNAMIC_DEPLOY_PRIME_URL} npm run build"
+  SITE="${DYNAMIC_DEPLOY_PRIME_URL}"
 
 [context.branch-deploy.environment]
-  command = "SITE=${DYNAMIC_DEPLOY_PRIME_URL} npm run build"
+  SITE="${DYNAMIC_DEPLOY_PRIME_URL}"
