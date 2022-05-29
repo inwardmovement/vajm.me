@@ -2,8 +2,8 @@
   "scripts": {
     "dev": "astro dev",
     "new-poem": "node scripts/newPoem.js",
-    "format-check": "npx prettier -c .",
-    "format-write": "npx prettier -w .",
+    "format-check": "prettier -c .",
+    "format-write": "prettier -w .",
     "build": "astro build"
   },
   "devDependencies": {
