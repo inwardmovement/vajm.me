@@ -14,5 +14,6 @@ export default {
     (import.meta.env.CONTEXT == "branch-deploy")
   ),
   version: import.meta.env.NETLIFY && (import.meta.env.COMMIT_REF).substring(0, 7),
-  site: import.meta.env.SITE
+  site: import.meta.env.SITE,
+  DEPLOY_PRIME_URL: import.meta.env.DEPLOY_PRIME_URL
 }
