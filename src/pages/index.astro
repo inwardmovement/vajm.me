@@ -2,7 +2,6 @@
 import config from "../config"
 import Styles from "../components/Styles.astro"
 import Scripts from "../components/Scripts.astro"
-import Counter from "../components/Counter.astro"
 
 // console.log(config)
 ---
@@ -29,13 +28,6 @@ import Counter from "../components/Counter.astro"
         class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3"
         >...</button
       >
-
-      <Counter>
-        <h1>Hello, AlpineJS!</h1>
-      </Counter>
-      <Counter initialCount={5}>
-        <h2>Use Astro to pass in server-side props</h2>
-      </Counter>
     </div>
   </body>
 </html>
