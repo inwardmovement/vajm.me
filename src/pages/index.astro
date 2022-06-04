@@ -13,11 +13,16 @@ import Scripts from "../components/Scripts.astro"
     <meta name="version" content={config.version} />
     <Styles />
     <Scripts />
+    <style>
+      h1 {
+        user-select: none;
+      }
+    </style>
     <title>{config.title} | {config.description}</title>
   </head>
   <body class="">
     <div class="prose mx-auto">
-      <span class="">aaa</span>
+      <h1>aaa</h1>
     </div>
   </body>
 </html>

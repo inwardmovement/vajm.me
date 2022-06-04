@@ -3,7 +3,7 @@
     "dev": "astro dev",
     "new-poem": "node scripts/newPoem.js",
     "update": "npm update",
-    "update-astro": "npm update astro@latest",
+    "update-astro": "npm i astro@latest",
     "format-check": "prettier -c .",
     "format-write": "prettier -w .",
     "build": "astro build",
@@ -13,7 +13,8 @@
     "@astrojs/tailwind": "^0.2.1",
     "@tailwindcss/forms": "^0.5.2",
     "@tailwindcss/typography": "^0.5.2",
-    "astro": "^1.0.0-beta.36",
+    "astro": "^1.0.0-beta.40",
+    "autoprefixer": "^10.4.7",
     "prettier": "^2.6.2",
     "prettier-plugin-astro": "^0.0.12",
     "prettier-plugin-tailwindcss": "^0.1.11"
