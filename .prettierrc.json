@@ -1,6 +1,5 @@
 {
   "semi": false,
-  "bracketSameLine": true,
   "singleAttributePerLine": true,
   "trailingComma": "none"
 }
