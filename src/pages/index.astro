@@ -52,7 +52,7 @@ import Counter from "../components/Counter.astro"
             })
         "
       >
-        <div x-show="isLoading" class="spinner">Loading...</div>
+        <div x-show="isLoading">Loading...</div>
         <template x-if="posts">
           <ul>
             <template x-for="post in posts.slice(0, 5)">
