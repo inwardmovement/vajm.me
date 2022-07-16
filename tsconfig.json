@@ -7,7 +7,6 @@
     "isolatedModules": true,
     "allowSyntheticDefaultImports": true,
     "checkJs": true,
-    "types": ["vite/client"],
     "outDir": "./dist"
   }
 }
